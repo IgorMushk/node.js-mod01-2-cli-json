@@ -15,10 +15,10 @@ How to work with a json file so that it imitates a database
 *yarn add yards*  
 
 in app.js add
-const yargs = require("yargs");  
-const {hideBin} = require("yargs/helpers");  
+_const yargs = require("yargs");  
+const {hideBin} = require("yargs/helpers");_  
 
-for yards add const bookId = **String**(id);  
+for yards add _const bookId = **String**(id)_;  
 
 $ node app --action getById --id 1
 
@@ -26,7 +26,7 @@ $ node app --action getById --id 1
 *yarn add commander*  
 
 in app.js add  
-const {program} = require("commander")
+_const {program} = require("commander")_
 
 $ node app --action read --id 1  
 $ node app --action getById --id 1
