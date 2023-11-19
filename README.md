@@ -14,18 +14,18 @@ How to work with a json file so that it imitates a database
 ### yargs-example
 *yarn add yards*  
 
-**in app.js add**
+in app.js add
 const yargs = require("yargs");  
 const {hideBin} = require("yargs/helpers");  
 
-for yards add **const bookId = _String_(id)**;  
+for yards add const bookId = **String**(id);  
 
 $ node app --action getById --id 1
 
 ### commander-example
 *yarn add commander*  
 
-**in app.js add**
+in app.js add  
 const {program} = require("commander")
 
 $ node app --action read --id 1  
