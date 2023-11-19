@@ -14,7 +14,7 @@ How to work with a json file so that it imitates a database
 ### yargs-example
 *yarn add yards*  
 
-in app.js add
+in app.js add  
 _const yargs = require("yargs");  
 const {hideBin} = require("yargs/helpers");_  
 
