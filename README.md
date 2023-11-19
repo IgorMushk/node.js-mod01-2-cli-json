@@ -29,6 +29,6 @@ in app.js add
 _const {program} = require("commander")_
 
 $ node app --action read --id 1  
-$ node app --action getById --id 1
+$ node app --action getById --id 1  
 $ node app -a read -i 1  
-$ node app -a getById -i 1
+$ node app -a getById -i 1  
